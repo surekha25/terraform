@@ -1,0 +1,15 @@
+# Terraform-generated directories and files
+.terraform/
+.terraform.lock.hcl
+*.tfstate
+*.tfstate.*.backup
+crash.log
+
+# Terraform variable files (potentially containing sensitive data)
+*.tfvars
+*.tfvars.json
+override.tf
+override.tf.json
+
+# Terraform plan files
+*.tfplan
