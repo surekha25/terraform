@@ -1,0 +1,99 @@
+ + ami_id = "ami-09c813fb71547fc4f"
+  + mysql_info  = {
+      + ami                         = "ami-09c813fb71547fc4f"
+      + arn                         = "arn:aws:ec2:us-east-1:966656799776:instance/i-08cb74bfb7d1994b2"
+      + associate_public_ip_address = true
+      + availability_zone           = "us-east-1a"
+      + credit_specification        = [
+          + {
+              + cpu_credits = "standard"
+            },
+        ]
+      + disable_api_stop            = false
+      + disable_api_termination     = false
+      + ebs_block_device            = []
+      + ebs_optimized               = false
+      + enclave_options             = [
+          + {
+              + enabled = false
+            },
+        ]
+      + ephemeral_block_device      = []
+      + filter                      = null
+      + get_password_data           = false
+      + get_user_data               = false
+      + host_id                     = ""
+      + host_resource_group_arn     = ""
+      + iam_instance_profile        = ""
+      + id                          = "i-08cb74bfb7d1994b2"
+      + instance_id                 = "i-08cb74bfb7d1994b2"
+      + instance_state              = "running"
+      + instance_tags               = null
+      + instance_type               = "t2.micro"
+      + ipv6_addresses              = []
+      + key_name                    = ""
+      + launch_time                 = "2025-10-21T12:17:36Z"
+      + maintenance_options         = [
+          + {
+              + auto_recovery = "default"
+            },
+        ]
+      + metadata_options            = [
+          + {
+              + http_endpoint               = "enabled"
+              + http_protocol_ipv6          = "disabled"
+              + http_put_response_hop_limit = 1
+              + http_tokens                 = "optional"
+              + instance_metadata_tags      = "disabled"
+            },
+        ]
+      + monitoring                  = false
+      + network_interface_id        = "eni-00b128f6e436f2055"
+      + outpost_arn                 = ""
+      + password_data               = null
+      + placement_group             = ""
+      + placement_group_id          = ""
+      + placement_partition_number  = 0
+      + private_dns                 = "ip-172-31-30-177.ec2.internal"
+      + private_dns_name_options    = [
+          + {
+              + enable_resource_name_dns_a_record    = true
+              + enable_resource_name_dns_aaaa_record = false
+              + hostname_type                        = "ip-name"
+            },
+        ]
+      + private_ip                  = "172.31.30.177"
+      + public_dns                  = "ec2-54-225-33-7.compute-1.amazonaws.com"
+      + public_ip                   = "54.225.33.7"
+      + region                      = "us-east-1"
+      + root_block_device           = [
+          + {
+              + delete_on_termination = true
+              + device_name           = "/dev/sda1"
+              + encrypted             = false
+              + iops                  = 3000
+              + kms_key_id            = ""
+              + tags                  = {}
+              + throughput            = 125
+              + volume_id             = "vol-02f6151eefc96d7be"
+              + volume_size           = 20
+              + volume_type           = "gp3"
+            },
+        ]
+      + secondary_private_ips       = []
+      + security_groups             = [
+          + "allow-all-ports",
+        ]
+      + source_dest_check           = true
+      + subnet_id                   = "subnet-021a4dd43ec1c8ef7"
+      + tags                        = {
+          + Name = "mysql"
+        }
+      + tenancy                     = "default"
+      + timeouts                    = null
+      + user_data                   = null
+      + user_data_base64            = null
+      + vpc_security_group_ids      = [
+          + "sg-026125864f002d1cd",
+        ]
+    }
